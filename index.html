@@ -142,12 +142,12 @@ footer p{font-size:.68rem;color:rgba(249,247,244,.2);letter-spacing:.5px;text-tr
 
 @media(max-width:640px){
   .spec-grid{grid-template-columns:repeat(2,1fr)}
-  h1{font-size:2.2rem}
-  .hero{min-height:100svh;align-items:center}
-  .photo{position:absolute;right:-5%;top:0;width:85%;height:100%;object-fit:cover;object-position:top center;display:block!important;-webkit-mask:linear-gradient(to right,transparent 0%,black 30%);mask:linear-gradient(to right,transparent 0%,black 30%)}
-  .photo-placeholder{position:absolute;right:-5%;top:0;width:85%;height:100%;-webkit-mask:linear-gradient(to right,transparent 0%,black 30%);mask:linear-gradient(to right,transparent 0%,black 30%)}
-  .glass-layer{position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(to right,rgba(18,31,51,1) 0%,rgba(18,31,51,.85) 25%,rgba(18,31,51,.1) 55%,transparent 100%);backdrop-filter:none;-webkit-backdrop-filter:none}
-  .content{position:relative;z-index:2;padding:0 5%;max-width:65%}
+  .spec-item{padding:1.75rem 1rem}
+  h1{font-size:2rem}
+  .bio{line-height:1.7}
+  .role{font-size:.78rem}
+  .content{max-width:58%}
+  #foto2parallax{height:75%!important;opacity:.12!important}
 }
 </style>
 </head>
@@ -405,4 +405,6 @@ const obs=new IntersectionObserver(entries=>{
 document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
 </script>
 </body>
+</html>
+
 </html>
